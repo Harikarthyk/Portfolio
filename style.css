@@ -169,7 +169,7 @@ a.body__about__contact__button {
 	display: flex;
 	flex-wrap: wrap;
 	width: 80%;
-	align-items: center;
+	align-items: baseline;
 	justify-content: center;
 }
 .body__works__projects__project {
