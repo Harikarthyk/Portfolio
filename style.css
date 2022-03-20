@@ -193,31 +193,36 @@ a.body__about__contact__button {
 	font-size: 15px;
 	transition: all 0.3s ease-in-out;
 	margin: 9px 0;
+    text-decoration: revert;
 }
 .body__works__project__tools {
-	font-size: x-small;
-	color: black;
+	font-size: 15px;
+    color: #11abb0;
+    text-align: center;
+    margin-bottom: 10px;
 }
 .body__works__projects__project img {
 	width: 100%;
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
-	height: 160px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 5px 20px;
+    height: 215px;
+    object-fit: cover;
+    border-radius: 6px;
 }
 .body__works__project__code:hover {
-	font-size: x-small;
+	font-size: 18px;
 	border-bottom: 3px solid #11abb0;
 	cursor: pointer;
 }
 .body__works__project__code {
 	color: black;
-	transition: all 0.3s ease-in-out;
-	font-size: xx-small;
-	font-weight: bolder;
-	text-decoration: underline;
+    transition: all 0.2s ease-in-out;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
 }
 .body__works__project__title:hover {
-	border-bottom: 3px solid #11abb0;
-	color: black;
+	/* border-bottom: 3px solid #11abb0; */
+	color: black !important;
 	font-weight: 900;
 	cursor: pointer;
 }
